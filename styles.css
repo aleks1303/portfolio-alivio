@@ -1,0 +1,399 @@
+@font-face {
+  font-family: "Lato", sans-serif;
+  src: url(fonts/Lato-Regular.ttf);
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "lato";
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+
+  min-width: 1440px;
+}
+
+/*intro*/
+
+.intro {
+  background-image: url(images/img-bg-1.jpg);
+  height: 785px;
+  padding-bottom: 340px;
+  margin-bottom: 0px;
+}
+
+.header {
+  padding: 17px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+
+  margin-bottom: 85px;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.n-list {
+  margin-right: 50px;
+}
+.n-list:last-child {
+  margin-right: 0px;
+}
+
+.n-link {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #292929;
+}
+
+.btn-header {
+  margin-left: 100px;
+}
+
+.btn-primary {
+  font-size: 17px;
+  padding: 10px 40px;
+  background-color: #019960;
+  border: 1px solid #019960;
+  color: #ffffff;
+
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #ffffff;
+  color: #019960;
+  transition: all 0.2s linear;
+}
+
+.intro-info {
+  margin-right: 900px;
+
+  margin-left: 100px;
+}
+
+.title {
+  font-size: 55px;
+  line-height: 64px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  text-align: left;
+  color: #019960;
+  margin-bottom: 30px;
+}
+.intro-description {
+  color: #484848;
+  line-height: 31px;
+  margin-bottom: 28px;
+  padding-right: 130px;
+}
+
+/*main*/
+
+/*section 1*/
+
+.section-1 {
+  padding: 150px 100px 0 100px;
+  background-color: #fafafa;
+}
+
+.s1-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.s1-title {
+  width: 584px;
+  padding-right: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700px;
+
+  color: #019960;
+}
+
+.now-it-works {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 600;
+
+  color: #484848;
+}
+
+.discription {
+  width: 571px;
+  height: 269px;
+
+  line-height: 31px;
+  color: #484848;
+}
+
+/*card*/
+
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 382px;
+  position: relative;
+}
+
+.nomber {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 150px;
+  font-weight: 400;
+  line-height: 225px;
+
+  color: rgba(1, 153, 109, 0.2);
+}
+
+.c-title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 700;
+
+  text-align: center;
+  margin-top: -93px;
+  margin-left: -30px;
+  margin-bottom: 55px;
+}
+
+.card-discription {
+  font-size: 20px;
+  line-height: 30px;
+  color: #424242;
+  margin-bottom: 40px;
+}
+.card-image-1-2 {
+  margin-top: -272px;
+  right: -10px;
+
+  position: absolute;
+}
+.card-2 {
+  width: 382px;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+.c-title-2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 700;
+
+  text-align: right;
+  margin-top: -93px;
+
+  margin-bottom: 55px;
+}
+.card-3 {
+  width: 382px;
+  margin-top: 50px;
+}
+.c-title-3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 700;
+
+  margin-top: -83px;
+  margin-left: 120px;
+  margin-bottom: 55px;
+}
+
+.card-image-1 {
+  border-radius: 12px;
+}
+
+/*section-2*/
+
+.section-2 {
+  background-color: #245852;
+
+  padding: 200px 100px 200px 100px;
+  display: flex;
+}
+
+.s2-info {
+  margin-right: 50px;
+  text-align: left;
+  padding-top: 40px;
+}
+
+.s2-title {
+  font-size: 50px;
+  line-height: 60px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.s2-discription {
+  font-size: 24px;
+  line-height: 39px;
+  font-weight: 600px;
+  margin-bottom: 70px;
+
+  color: #ffffff;
+}
+
+.vector {
+  display: flex;
+  position: relative;
+  margin-top: -220px;
+  left: 290px;
+  width: 200px;
+}
+.vector-1 {
+  position: absolute;
+}
+.vector-2 {
+  position: relative;
+  align-items: center;
+  top: 16px;
+  left: 23px;
+}
+
+/*section 3*/
+
+.section-3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 100px 100px 200px;
+}
+
+.image-title {
+  margin-right: 70px;
+}
+
+.container-s3 {
+  width: 538px;
+  height: 473px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(1, 153, 109, 0.2);
+
+  border-radius: 18px;
+  position: relative;
+}
+
+.image-card {
+  background-color: #ffffff;
+  width: 250px;
+  height: 260px;
+  box-shadow: 5px 5px 18px gainsboro;
+  border-radius: 3px;
+
+  position: relative;
+  margin-top: -180px;
+  left: -50px;
+}
+
+.card-title {
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 600px;
+  text-align: center;
+  color: #000000;
+  padding-top: 10px;
+}
+
+.card-title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 0px;
+  border: 0.6px solid #000000;
+
+  margin: 10px 83px;
+}
+
+.foto-image {
+  margin: 10px 90px;
+}
+
+.foto-card {
+  border-radius: 50%;
+  background-color: rgba(1, 153, 109, 0.2);
+}
+
+.foto-name {
+  font-size: 12px;
+  line-height: 19px;
+  margin-left: 6px;
+  margin-bottom: 20px;
+}
+
+.title-list {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.list-info {
+  font-size: 10px;
+  line-height: 17px;
+  margin: 10px 40px;
+}
+
+.title-s3-info {
+  font-size: 25px;
+  line-height: 39px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.s3-title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700px;
+
+  color: #019960;
+  margin-bottom: 20px;
+}
+
+.s3-discription {
+  font-size: 20px;
+  line-height: 31px;
+  color: #484848;
+  margin-bottom: 40px;
+}
+
+/*footer*/
+
+.footer {
+  background-color: #245852;
+  padding: 100px 0 50px 200px;
+}
+
+.list-link-logo {
+  color: #ffffff;
+  margin-bottom: 50px;
+  font-size: 35px;
+  line-height: 55px;
+  font-weight: 900;
+}
+
+.list-link {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
